@@ -34,10 +34,9 @@ class _MagicBallState extends State<MagicBall> {
             onPressed: () {
               setState(() {
                 image = Random().nextInt(4) + 1;
-                print('pressed');
               });
             },
-            child: Image.asset('images/ball1.png'),
+            child: Image.asset('images/ball$image.png'),
           ),
         ),
       ),
