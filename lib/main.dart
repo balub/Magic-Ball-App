@@ -28,7 +28,9 @@ class _MagicBallState extends State<MagicBall> {
       backgroundColor: Colors.blue,
       body: Container(
         child: Center(
-          child: Image.asset('images/ball1.png'),
+          child: Expanded(
+            child: Image.asset('images/ball1.png'),
+          ),
         ),
       ),
     );
