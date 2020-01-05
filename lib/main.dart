@@ -5,9 +5,8 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.blue,
-      body: MagicBall(),
+    return MaterialApp(
+      home: MagicBall(),
     );
   }
 }
@@ -20,6 +19,18 @@ class MagicBall extends StatefulWidget {
 class _MagicBallState extends State<MagicBall> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Center(
+          child: Text('Magic Pool App'),
+        ),
+      ),
+      backgroundColor: Colors.blue,
+      body: Container(
+        child: Center(
+          child: Image.asset('images/ball1.png'),
+        ),
+      ),
+    );
   }
 }
