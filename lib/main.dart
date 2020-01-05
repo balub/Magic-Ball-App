@@ -30,11 +30,14 @@ class _MagicBallState extends State<MagicBall> {
       backgroundColor: Colors.blue,
       body: Container(
         child: Center(
-          child: Expanded(
-            child: FlatButton(
-              onPressed: () {},
-              child: Image.asset('images/ball$image.png'),
-            ),
+          child: FlatButton(
+            onPressed: () {
+              setState(() {
+                image = Random().nextInt(4) + 1;
+                print('pressed');
+              });
+            },
+            child: Image.asset('images/ball1.png'),
           ),
         ),
       ),
