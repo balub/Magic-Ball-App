@@ -9,8 +9,8 @@ A simple app made from Flutter, that displays a magic ball to help you make a de
     *Be happy with your recieved answer
 
 ## Screenshots
-[<img src = "https://imgur.com/hpjdIe9" width=250>](https://imgur.com/hpjdIe9)
-[<img src="https://i.imgur.com/8g7HPIL.png" width=250>](https://i.imgur.com/8g7HPIL.png)
-
+[<img src = "https://i.imgur.com/hpjdIe9.jpg" width=250>](https://i.imgur.com/hpjdIe9.jpg)
+[<img src="https://imgur.com/RWsXKLJ.jpg" width=250>](https://imgur.com/RWsXKLJ.jpg) 
+[<img src = "https://imgur.com/zPV1FsF.jpg" width=250>](https://imgur.com/zPV1FsF.jpg)
 
 ## Built using Flutter
